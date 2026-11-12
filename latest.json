@@ -1,0 +1,30 @@
+{
+  "updatedAt": "2026-11-12T20:04:33.345Z",
+  "targets": [
+    {
+      "id": "frankfurt",
+      "status": "slow",
+      "latencyMs": 435
+    },
+    {
+      "id": "virginia",
+      "status": "up",
+      "latencyMs": 200
+    },
+    {
+      "id": "tokyo",
+      "status": "slow",
+      "latencyMs": 534
+    },
+    {
+      "id": "sydney",
+      "status": "slow",
+      "latencyMs": 617
+    },
+    {
+      "id": "saopaulo",
+      "status": "slow",
+      "latencyMs": 643
+    }
+  ]
+}
