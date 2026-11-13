@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: check-targets
@@ -44,3 +45,9 @@ jobs:
             git commit -m "data: update $(date -u +%Y-%m-%dT%H:%MZ)"
             git push
           fi
+
+      - name: Open or close outage issues
+        run: node scripts/alerts.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
