@@ -34,8 +34,9 @@ type Props = {
 };
 
 export function TargetPanel({target, history, onClose}: Props) {
-  const uptime =
-    (history.filter((p) => p.status !== "down").length / history.length) * 100;
+  const uptime = history.length
+    ? (history.filter((p) => p.status !== "down").length / history.length) * 100
+    : 0;
 
   return (
     <Card className="absolute right-4 top-4 z-10 w-80">
