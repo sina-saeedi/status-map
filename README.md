@@ -2,9 +2,6 @@
 
 A live world map that shows whether a set of servers are up, slow, or down. It runs entirely on GitHub: there is no backend, no database and no hosting bill.
 
-[![Check targets](https://github.com/sina-saeedi/status-map/actions/workflows/check.yml/badge.svg)](https://github.com/sina-saeedi/status-map/actions/workflows/check.yml)
-[![Deploy site](https://github.com/sina-saeedi/status-map/actions/workflows/deploy.yml/badge.svg)](https://github.com/sina-saeedi/status-map/actions/workflows/deploy.yml)
-
 **[View the live demo](https://sina-saeedi.github.io/status-map)**
 
 ![Screenshot of the status map](docs/readme-screenshot.png)
