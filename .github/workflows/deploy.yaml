@@ -31,8 +31,8 @@ jobs:
         run: npm run build
         env:
           BASE_PATH: /${{ github.event.repository.name }}
-          VITE_GITHUB_REPO: ${{ github.repository_owner }}
-          VITE_GITHUB_USERNAME: ${{ github.event.repository.name }}
+          VITE_GITHUB_REPO: ${{ github.event.repository.name }}
+          VITE_GITHUB_USERNAME: ${{ github.repository_owner }}
 
       - uses: actions/upload-pages-artifact@v3
         with:
