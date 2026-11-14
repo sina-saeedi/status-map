@@ -9,7 +9,7 @@
   {
     "id": "virginia",
     "name": "AWS N. Virginia",
-    "url": "https://dynamodb.us-east-1.amazoswss.com",
+    "url": "https://dynamodb.us-east-1.amazonaws.com",
     "lat": 38.95,
     "lng": -77.45
   },
