@@ -1,30 +1,30 @@
 {
-  "updatedAt": "2026-11-27T15:24:53.135Z",
+  "updatedAt": "2026-11-27T23:39:30.196Z",
   "targets": [
     {
       "id": "frankfurt",
       "status": "slow",
-      "latencyMs": 509
+      "latencyMs": 542
     },
     {
       "id": "virginia",
       "status": "up",
-      "latencyMs": 170
+      "latencyMs": 219
     },
     {
       "id": "tokyo",
       "status": "slow",
-      "latencyMs": 466
+      "latencyMs": 304
     },
     {
       "id": "sydney",
       "status": "slow",
-      "latencyMs": 664
+      "latencyMs": 433
     },
     {
       "id": "saopaulo",
       "status": "slow",
-      "latencyMs": 608
+      "latencyMs": 523
     }
   ]
 }
